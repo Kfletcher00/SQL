@@ -35,11 +35,11 @@ FROM superstore
 WHERE price>=1
 ORDER BY price;
 
---Show a static on item prices.
+--Show a statistic on item prices.
 SELECT AVG(price)
 FROM superstore;
 
---Show statictics for kitchen supplies prices.
+--Show statistics for kitchen supplies prices.
 SELECT AVG(price)
 FROM superstore
 WHERE category='Kitchen Supplies';
